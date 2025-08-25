@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>MinimalistPlayer</title>
+    </head>
+    <body>
+        <button id="back">Previous Song</button>
+        <button id="next">Next Song</button>
+        <button id="playndpause">Play</button>
+        <button id="repeat">Repeat</button>
+        <button id="shuffle">Shuffle</button>
+        <audio id="MinimalistPlayer"></audio>
+        <div id="Phonk"></div>
+        <div id="progressContainer" style="width: 400px; height: 10px; background: rgba(82, 82, 82, 0.589); cursor: pointer;">
+            <div id="progressBar" style="width: 0%; height: 100%; background: rgb(5, 243, 199);"></div>
+        </div>
+        <div>
+          <span id="Playtime">0:00</span> / <span id="songDuration">0:00</span>
+        </div>
+        <label for="volumeControl">Volume:</label>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+        <script src="MusicPlayer.js"></script>
+    </body>
+</html>
