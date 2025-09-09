@@ -1,7 +1,7 @@
 # Minimalist Web Audio Player
 
 My First project in Javascript
-A simple and lightweight web-based audio player built with HTML, CSS (very little, v2.0 ill be adding better UI UX), and some basic JavaScript. Designed for ease of use, it supports only offline local audio files, as of v1.0.
+A simple and lightweight web-based audio player built with HTML, CSS (minimum, v3.0 ill be adding better UI UX), and some basic JavaScript. Designed for ease of use, it supports only offline local audio files, as of v2.0.
 
 ## Features
 
@@ -19,7 +19,7 @@ A simple and lightweight web-based audio player built with HTML, CSS (very littl
 
 1. Clone or download the repository.
 2. Add your audio files to the `Phonk/` folder or keep the provided example URLs.
-3. Open `MusicPlayer.html` in a modern browser.
+3. Open `index.html` in a modern browser.
 4. For offline audio playback, serve the directory using a local HTTP server such as Python's `http.server`:python3 -m http.server or use LiveServer VSCode extension
 5. Access the player via `http://localhost:8000/MusicPlayer.html` (or your chosen port).
 
