@@ -35,7 +35,7 @@
     }
             
     function randintrange(a,b) {
-        return Math.floor(Math.random()*(a-b+1)) + a;
+        return Math.floor(Math.random()*(b-a+1)) + a;
     }
     const playndpause = document.getElementById('playndpause');
 
